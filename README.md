@@ -1,1 +1,10 @@
-# sdxasd
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TITLE", "DarkTheme")
+local Tab = Window:NewTab("สคริปBy:icenakubbb")
+local Section = Tab:NewSection("ฟังชั่นลอย+ปรับความเร็ว")
+Section:NewButton("สคริปลอย", "สคริปลอย", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+Section:NewButton("วิ่งเร็ว", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shugare/Speed/main/S", true))()
+end)
