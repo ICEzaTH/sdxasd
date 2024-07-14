@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("TITLE", "DarkTheme")
+local Window = Library.CreateLib("สนใจเขียนสคริปทักDc:icenakubbb", "DarkTheme")
 local Tab = Window:NewTab("สคริปBy:icenakubbb")
 local Section = Tab:NewSection("ฟังชั่นลอย+ปรับความเร็ว")
 Section:NewButton("สคริปลอย", "สคริปลอย", function()
